@@ -16,7 +16,7 @@ tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 # Initialize InferenceHTTPClient
 CLIENT = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
-    api_key="8ryrnLvm9tGdLMyEMBlH"
+    api_key="Your_Api_key"
 )
 
 class ObjectDetectionApp(QMainWindow):
