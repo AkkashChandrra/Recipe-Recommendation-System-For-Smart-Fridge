@@ -8,7 +8,7 @@ from transformers import pipeline
 # Initialize InferenceHTTPClient
 CLIENT = InferenceHTTPClient(
     api_url="https://detect.roboflow.com",
-    api_key="8ryrnLvm9tGdLMyEMBlH"
+    api_key="Your_API_KEY"
 )
 
 class ObjectDetectionApp(QMainWindow):
